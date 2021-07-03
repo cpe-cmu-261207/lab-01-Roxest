@@ -10,13 +10,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="./css/style.css">
 
 </head>
 
 
-<body class="bg-gray-100">
-  <!-- Header -->
+<body class="bg-gray-800">
+  <!-- navbar -->
   <div class="bg-white border-b-2 py-2 mb-6">
     <div class="dfont flex justify-evenly max-w-screen-md mx-auto">
       <a href="index.html">Home</a>
@@ -27,7 +27,7 @@
   <!-- introduction box -->
   <div class="bg-white max-w-screen-sm mx-auto flex shadow-lg rounded-xl mb-6">
     <div class="flex p-4">
-      <img class="w-36 h-36 rounded-full" src="pic/pro.jpg">
+      <img class="w-36 h-36 rounded-full" src="./pic/pro.jpg">
       <div class="p-4 space-y-2">
         <p class="dfont">Thammarin Chung</p>
         <p class="dfont text-sm text-gray-500">Hello,my name is Thammarin. I am currently studying in Computer
@@ -37,34 +37,42 @@
     </div>
   </div>
 
-  <!-- skills section -->
+  <!-- Header -->
   <div class="bg-white max-w-screen-sm mx-auto shadow-lg rounded-xl mb-6 p-4">
-    <div>
-      <p class="dfont text-center text-2xl p-4">My skills</p>
-      <div class="flex p-4">
-        <img class="object-contain h-36 w-36" src="pic/c++.png">
+    <p class="dfont text-center text-2xl">My skills</p>
+  </div>
+  <!-- skills list -->
+  <div class="mt-8 grid grid-cols-3 gap-10">
+    <!-- c1 -->
+    <div class="bg-white overflow-hidden rounded-xl shadow-xl">
+        <img class="h-32 w-full object-cover" src="./pic/c++.png">
         <div class="p-4 space-y-2">
-          <p class="dfont text-xl">C++</p>
-          <p class="dfont text-gray-500 text-sm">I have learned about css and used it in fews project that made with my friends.</p>
+          <p class="dfont text-xl text-center">C++</p>
+          <p class="dfont text-gray-500 text-sm text-center">I have learned about css and used it in fews project that made with my
+            friends.</p>
         </div>
-      </div>
-      <div class="flex p-4">
-        <img class="object-contain h-36 w-36 " src="pic/python.png">
-        <div class="p-4 space-y-2">
-          <p class="dfont text-xl">Python</p>
-          <p class="dfont text-gray-500 text-sm">I have learned about python and used it in fews test.</p>
-        </div>
-      </div>
-      <div class="flex p-4">
-        <img class="object-contain h-36 w-36 " src="pic/uxui.jpg">
-        <div class="p-4 space-y-2">
-          <p class="dfont text-xl">UX/UI Designing</p>
-          <p class="dfont text-gray-500 text-sm">User Interface is something I loved to do and make it appealing the eyes of users</p>
-        </div>
-      </div>
     </div>
+      <!-- c2 -->
+      <div class="bg-white overflow-hidden rounded-xl shadow-xl">
+        <img class="h-32 w-full object-cover" src="./pic/python.png">
+        <div class="p-4 space-y-2">
+          <p class="dfont text-xl text-center">Python</p>
+          <p class="dfont text-gray-500 text-sm text-center">I have learned about python and used it in fews test.</p>
+        </div>
+      </div>
+      <!-- c3 -->
+      <div class="bg-white overflow-hidden rounded-xl shadow-xl">
+        <img class="h-32 w-full object-cover" src="./pic/uxui.jpg">
+        <div class="p-4 space-y-2">
+          <p class="dfont text-xl text-center">UX/UI Designing</p>
+          <p class="dfont text-gray-500 text-sm text-center">User Interface is something I loved to do and make it appealing the eyes
+            of users</p>
+        </div>
+      </div>
+  
   </div>
-  </div>
+  <!-- Copyright -->
+  <p class="dfont text-center text-xs text-gray-400 mt-5 mb-4">Copyright © 2021 Thammarin Resume by Thammarin Chung</p>
 </body>
 
 </html>
